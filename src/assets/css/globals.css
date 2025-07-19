@@ -8,6 +8,7 @@
   --white: #ffffff;
   --black: #000000;
   --pink: #ddcfc6;
+  --primary-color: #f0aa00;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 .container {
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 60px;
 }
 
 /* common class */
@@ -82,11 +83,10 @@ button {
 }
 
 h1 {
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 120%;
-  text-transform: capitalize;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  /* text-transform: capitalize; */
 }
 h2 {
   font-size: 64px;
